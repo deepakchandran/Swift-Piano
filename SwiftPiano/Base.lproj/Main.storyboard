@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
@@ -21,84 +21,126 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zn-8K-vF9">
-                                <rect key="frame" x="75" y="61" width="60" height="230"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zn-8K-vF9" userLabel="C">
+                                <rect key="frame" x="0.0" y="120" width="60" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="C3" backgroundImage="white.jpg"/>
+                                <state key="normal" title="C" backgroundImage="white.jpg"/>
                                 <connections>
-                                    <action selector="C3:" destination="BYZ-38-t0r" eventType="touchDown" id="VFd-B2-0Ar"/>
+                                    <action selector="C:" destination="BYZ-38-t0r" eventType="touchDown" id="Pu8-oz-TWk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RW-ww-ACl">
-                                <rect key="frame" x="135" y="61" width="60" height="230"/>
+                                <rect key="frame" x="60" y="120" width="60" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="D3" backgroundImage="white.jpg"/>
+                                <state key="normal" title="D" backgroundImage="white.jpg"/>
+                                <connections>
+                                    <action selector="D:" destination="BYZ-38-t0r" eventType="touchDown" id="W5N-KI-EZV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jeH-Xt-gCr">
-                                <rect key="frame" x="195" y="61" width="60" height="230"/>
+                                <rect key="frame" x="120" y="120" width="60" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="E3" backgroundImage="white.jpg"/>
+                                <state key="normal" title="E" backgroundImage="white.jpg"/>
+                                <connections>
+                                    <action selector="E:" destination="BYZ-38-t0r" eventType="touchDown" id="8c3-en-MKR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAd-1f-SSp">
-                                <rect key="frame" x="180" y="61" width="46" height="140"/>
+                                <rect key="frame" x="105" y="120" width="46" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Eb3" backgroundImage="black.jpg"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mnz-S1-qza">
-                                <rect key="frame" x="255" y="61" width="60" height="230"/>
+                                <rect key="frame" x="180" y="120" width="60" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="F3" backgroundImage="white.jpg"/>
+                                <state key="normal" title="F" backgroundImage="white.jpg"/>
+                                <connections>
+                                    <action selector="F:" destination="BYZ-38-t0r" eventType="touchDown" id="j5k-gB-lNC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="foR-q6-ahf">
-                                <rect key="frame" x="315" y="61" width="60" height="230"/>
+                                <rect key="frame" x="240" y="120" width="60" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="G3" backgroundImage="white.jpg"/>
+                                <state key="normal" title="G" backgroundImage="white.jpg"/>
+                                <connections>
+                                    <action selector="G:" destination="BYZ-38-t0r" eventType="touchDown" id="Mhx-wY-Skh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IyR-Cu-AUP">
-                                <rect key="frame" x="375" y="61" width="60" height="230"/>
+                                <rect key="frame" x="300" y="120" width="60" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="A3" backgroundImage="white.jpg"/>
+                                <state key="normal" title="A" backgroundImage="white.jpg"/>
+                                <connections>
+                                    <action selector="A:" destination="BYZ-38-t0r" eventType="touchDown" id="Yyu-8v-pAk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zS-9K-ovS">
-                                <rect key="frame" x="435" y="61" width="60" height="230"/>
+                                <rect key="frame" x="360" y="120" width="60" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="B3" backgroundImage="white.jpg"/>
+                                <state key="normal" title="B" backgroundImage="white.jpg"/>
+                                <connections>
+                                    <action selector="B:" destination="BYZ-38-t0r" eventType="touchDown" id="Axj-CU-CL2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hW7-1Z-11L">
-                                <rect key="frame" x="495" y="61" width="60" height="230"/>
+                                <rect key="frame" x="420" y="120" width="60" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="C4" backgroundImage="white.jpg"/>
+                                <connections>
+                                    <action selector="C4:" destination="BYZ-38-t0r" eventType="touchDown" id="6Ia-Hi-qZV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXu-r8-bjX">
-                                <rect key="frame" x="113" y="61" width="46" height="140"/>
+                                <rect key="frame" x="38" y="120" width="46" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Db3" backgroundImage="black.jpg"/>
+                                <state key="normal" title="Db" backgroundImage="black.jpg"/>
+                                <connections>
+                                    <action selector="Db:" destination="BYZ-38-t0r" eventType="touchDown" id="inA-Uk-Sg3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFg-g6-B8U">
-                                <rect key="frame" x="290" y="61" width="46" height="140"/>
+                                <rect key="frame" x="215" y="120" width="46" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Gb3" backgroundImage="black.jpg"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5c7-Ld-aWS">
-                                <rect key="frame" x="357" y="61" width="46" height="140"/>
+                                <rect key="frame" x="282" y="120" width="46" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Ab3" backgroundImage="black.jpg"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SS1-Ny-Aeg">
-                                <rect key="frame" x="419" y="61" width="46" height="140"/>
+                                <rect key="frame" x="344" y="120" width="46" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Bb3" backgroundImage="black.jpg"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musicat.png" translatesAutoresizingMaskIntoConstraints="NO" id="AYk-OQ-Haw">
+                                <rect key="frame" x="411" y="118" width="176" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="speech_bubble.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Aa-pm-FJ4">
+                                <rect key="frame" x="300" y="0.0" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8X2-C3-Lyk">
+                                <rect key="frame" x="315" y="46" width="91" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="118.30985915492958" y="22.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="black.jpg" width="40" height="140"/>
+        <image name="musicat.png" width="222" height="247"/>
+        <image name="speech_bubble.png" width="584" height="266"/>
         <image name="white.jpg" width="60" height="230"/>
     </resources>
 </document>
