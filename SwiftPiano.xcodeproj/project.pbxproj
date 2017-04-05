@@ -24,9 +24,22 @@
 		00F8F0001E62090F0052FB18 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00F8EFFF1E62090F0052FB18 /* A.mp3 */; };
 		00F8F0011E62090F0052FB18 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00F8EFFF1E62090F0052FB18 /* A.mp3 */; };
 		00F8F0021E62090F0052FB18 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00F8EFFF1E62090F0052FB18 /* A.mp3 */; };
-		00F8F0041E6209240052FB18 /* C3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00F8F0031E6209240052FB18 /* C3.mp3 */; };
-		00F8F0051E6209240052FB18 /* C3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00F8F0031E6209240052FB18 /* C3.mp3 */; };
-		00F8F0061E6209240052FB18 /* C3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00F8F0031E6209240052FB18 /* C3.mp3 */; };
+		00F8F0041E6209240052FB18 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00F8F0031E6209240052FB18 /* C.mp3 */; };
+		00F8F0051E6209240052FB18 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00F8F0031E6209240052FB18 /* C.mp3 */; };
+		00F8F0061E6209240052FB18 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00F8F0031E6209240052FB18 /* C.mp3 */; };
+		821AE54B1E93F11A003267BD /* D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 821AE54A1E93F11A003267BD /* D.mp3 */; };
+		821AE54D1E93F142003267BD /* C#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 821AE54C1E93F142003267BD /* C#.mp3 */; };
+		821AE54F1E93F148003267BD /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 821AE54E1E93F148003267BD /* E.mp3 */; };
+		821AE5511E93F14D003267BD /* F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 821AE5501E93F14D003267BD /* F.mp3 */; };
+		821AE5531E93F154003267BD /* D#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 821AE5521E93F154003267BD /* D#.mp3 */; };
+		821AE5551E93F15B003267BD /* F#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 821AE5541E93F15B003267BD /* F#.mp3 */; };
+		821AE5571E93F15F003267BD /* G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 821AE5561E93F15F003267BD /* G.mp3 */; };
+		821AE5591E93F164003267BD /* G#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 821AE5581E93F164003267BD /* G#.mp3 */; };
+		821AE55B1E93F184003267BD /* A#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 821AE55A1E93F184003267BD /* A#.mp3 */; };
+		821AE55D1E93F188003267BD /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 821AE55C1E93F188003267BD /* B.mp3 */; };
+		821AE55F1E93F1AC003267BD /* C4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 821AE55E1E93F1AC003267BD /* C4.mp3 */; };
+		821AE5611E947672003267BD /* speech_bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 821AE5601E947672003267BD /* speech_bubble.png */; };
+		821AE5631E94767A003267BD /* musicat.png in Resources */ = {isa = PBXBuildFile; fileRef = 821AE5621E94767A003267BD /* musicat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +77,20 @@
 		00F8EFF71E62019E0052FB18 /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
 		00F8EFFB1E6201A70052FB18 /* white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white.jpg; sourceTree = "<group>"; };
 		00F8EFFF1E62090F0052FB18 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.mp3; sourceTree = "<group>"; };
-		00F8F0031E6209240052FB18 /* C3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C3.mp3; sourceTree = "<group>"; };
+		00F8F0031E6209240052FB18 /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C.mp3; sourceTree = "<group>"; };
+		821AE54A1E93F11A003267BD /* D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = D.mp3; path = sound/D.mp3; sourceTree = "<group>"; };
+		821AE54C1E93F142003267BD /* C#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C#.mp3"; path = "sound/C#.mp3"; sourceTree = "<group>"; };
+		821AE54E1E93F148003267BD /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = E.mp3; path = sound/E.mp3; sourceTree = "<group>"; };
+		821AE5501E93F14D003267BD /* F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = F.mp3; path = sound/F.mp3; sourceTree = "<group>"; };
+		821AE5521E93F154003267BD /* D#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D#.mp3"; path = "sound/D#.mp3"; sourceTree = "<group>"; };
+		821AE5541E93F15B003267BD /* F#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F#.mp3"; path = "sound/F#.mp3"; sourceTree = "<group>"; };
+		821AE5561E93F15F003267BD /* G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = G.mp3; path = sound/G.mp3; sourceTree = "<group>"; };
+		821AE5581E93F164003267BD /* G#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "G#.mp3"; path = "sound/G#.mp3"; sourceTree = "<group>"; };
+		821AE55A1E93F184003267BD /* A#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A#.mp3"; path = "sound/A#.mp3"; sourceTree = "<group>"; };
+		821AE55C1E93F188003267BD /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = B.mp3; path = sound/B.mp3; sourceTree = "<group>"; };
+		821AE55E1E93F1AC003267BD /* C4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C4.mp3; path = sound/C4.mp3; sourceTree = "<group>"; };
+		821AE5601E947672003267BD /* speech_bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speech_bubble.png; sourceTree = "<group>"; };
+		821AE5621E94767A003267BD /* musicat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +149,21 @@
 				00F8EFD11E61FC430052FB18 /* Info.plist */,
 				00F8EFF71E62019E0052FB18 /* black.jpg */,
 				00F8EFFB1E6201A70052FB18 /* white.jpg */,
+				00F8F0031E6209240052FB18 /* C.mp3 */,
+				821AE54C1E93F142003267BD /* C#.mp3 */,
+				821AE54A1E93F11A003267BD /* D.mp3 */,
+				821AE5521E93F154003267BD /* D#.mp3 */,
+				821AE54E1E93F148003267BD /* E.mp3 */,
+				821AE5501E93F14D003267BD /* F.mp3 */,
+				821AE5541E93F15B003267BD /* F#.mp3 */,
+				821AE5561E93F15F003267BD /* G.mp3 */,
+				821AE5581E93F164003267BD /* G#.mp3 */,
 				00F8EFFF1E62090F0052FB18 /* A.mp3 */,
-				00F8F0031E6209240052FB18 /* C3.mp3 */,
+				821AE55A1E93F184003267BD /* A#.mp3 */,
+				821AE55C1E93F188003267BD /* B.mp3 */,
+				821AE55E1E93F1AC003267BD /* C4.mp3 */,
+				821AE5601E947672003267BD /* speech_bubble.png */,
+				821AE5621E94767A003267BD /* musicat.png */,
 				00F8EFF51E61FD600052FB18 /* sound */,
 			);
 			path = SwiftPiano;
@@ -225,6 +264,7 @@
 					};
 					00F8EFE01E61FC430052FB18 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 53R2C3HWTP;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 00F8EFC11E61FC420052FB18;
 					};
@@ -255,14 +295,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821AE5571E93F15F003267BD /* G.mp3 in Resources */,
+				821AE5531E93F154003267BD /* D#.mp3 in Resources */,
+				821AE54F1E93F148003267BD /* E.mp3 in Resources */,
+				821AE5611E947672003267BD /* speech_bubble.png in Resources */,
+				821AE55D1E93F188003267BD /* B.mp3 in Resources */,
+				821AE55B1E93F184003267BD /* A#.mp3 in Resources */,
+				821AE54D1E93F142003267BD /* C#.mp3 in Resources */,
 				00F8EFD01E61FC430052FB18 /* LaunchScreen.storyboard in Resources */,
+				821AE5631E94767A003267BD /* musicat.png in Resources */,
 				00F8F0001E62090F0052FB18 /* A.mp3 in Resources */,
-				00F8F0041E6209240052FB18 /* C3.mp3 in Resources */,
+				00F8F0041E6209240052FB18 /* C.mp3 in Resources */,
 				00F8EFCD1E61FC430052FB18 /* Assets.xcassets in Resources */,
 				00F8EFF61E61FD600052FB18 /* sound in Resources */,
 				00F8EFCB1E61FC430052FB18 /* Main.storyboard in Resources */,
+				821AE5551E93F15B003267BD /* F#.mp3 in Resources */,
+				821AE54B1E93F11A003267BD /* D.mp3 in Resources */,
+				821AE5511E93F14D003267BD /* F.mp3 in Resources */,
 				00F8EFF81E62019E0052FB18 /* black.jpg in Resources */,
+				821AE5591E93F164003267BD /* G#.mp3 in Resources */,
 				00F8EFFC1E6201A70052FB18 /* white.jpg in Resources */,
+				821AE55F1E93F1AC003267BD /* C4.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +325,7 @@
 			files = (
 				00F8F0011E62090F0052FB18 /* A.mp3 in Resources */,
 				00F8EFF91E62019E0052FB18 /* black.jpg in Resources */,
-				00F8F0051E6209240052FB18 /* C3.mp3 in Resources */,
+				00F8F0051E6209240052FB18 /* C.mp3 in Resources */,
 				00F8EFFD1E6201A70052FB18 /* white.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +336,7 @@
 			files = (
 				00F8F0021E62090F0052FB18 /* A.mp3 in Resources */,
 				00F8EFFA1E62019E0052FB18 /* black.jpg in Resources */,
-				00F8F0061E6209240052FB18 /* C3.mp3 in Resources */,
+				00F8F0061E6209240052FB18 /* C.mp3 in Resources */,
 				00F8EFFE1E6201A70052FB18 /* white.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 53R2C3HWTP;
 				INFOPLIST_FILE = SwiftPianoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cdeepak.SwiftPianoUITests;
@@ -513,6 +567,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 53R2C3HWTP;
 				INFOPLIST_FILE = SwiftPianoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cdeepak.SwiftPianoUITests;
@@ -541,6 +596,7 @@
 				00F8EFEC1E61FC430052FB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00F8EFED1E61FC430052FB18 /* Build configuration list for PBXNativeTarget "SwiftPianoTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +605,7 @@
 				00F8EFEF1E61FC430052FB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00F8EFF01E61FC430052FB18 /* Build configuration list for PBXNativeTarget "SwiftPianoUITests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +614,7 @@
 				00F8EFF21E61FC430052FB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
